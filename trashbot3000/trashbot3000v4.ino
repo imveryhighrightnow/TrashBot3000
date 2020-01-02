@@ -23,10 +23,15 @@ int clockPin = 4;
 int dataPin = 2;
 Servo myservo;  
 int pos = 20;  
+// connect trigpin of sonicsensor
 const int trigPin = 6;
+// connect echopin of sonicsensor
 const int echoPin = 5;
+// connect servo
 const int led = 11;
+// connect green led
 const int green = 12;
+// connect red led
 const int red = 10;
 
 long duration;
